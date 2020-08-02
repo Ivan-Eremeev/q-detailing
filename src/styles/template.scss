@@ -54,6 +54,9 @@ button {
 	&:visited {
 		color: #fff;
 	}
+	&:hover {
+		background: #70C5FB;
+	}
 }
 .btn-green {
 	display: inline-block;
@@ -68,6 +71,7 @@ button {
 	user-select: none;
 	&:hover {
 		color: #fff;
+		background: #68E739;
 	}
 	&:visited {
 		color: #fff;
@@ -97,6 +101,9 @@ button {
 		left: 50%;
 		transform: translate(-50%,-50%);
 		z-index: 20;
+	}
+	&:hover {
+		background: #70C5FB;
 	}
 }
 .top-title {
@@ -238,6 +245,9 @@ button {
 			font-size: 1.1875rem;
 			font-weight: bold;
 			color: #0a253e;
+			&:hover {
+				color: #4CCA1D;
+			}
 		}
 	}
 	&--link {
@@ -769,6 +779,7 @@ button {
 	}
 	&:hover {
 		color: #fff;
+		background: #70C5FB !important;
 	}
 	&:visited {
 		color: #fff;
@@ -1250,6 +1261,10 @@ button {
 	}
 	&_li {
 		margin-bottom: 20px;
+		transition: 0.3s;
+		&:hover {
+			transform: translate(+5px,0);
+		}
 	}
 	&_contacts {
 		margin-bottom: 40px;
