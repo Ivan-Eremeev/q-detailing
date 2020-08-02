@@ -1,0 +1,288 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-acura-name: 'icon-acura';
+$icon-acura-x: 0px;
+$icon-acura-y: 513px;
+$icon-acura-offset-x: 0px;
+$icon-acura-offset-y: -513px;
+$icon-acura-width: 58px;
+$icon-acura-height: 56px;
+$icon-acura-total-width: 700px;
+$icon-acura-total-height: 569px;
+$icon-acura-image: '../img/sprite.png';
+$icon-acura: (0px, 513px, 0px, -513px, 58px, 56px, 700px, 569px, '../img/sprite.png', 'icon-acura', );
+$icon-adrress-name: 'icon-adrress';
+$icon-adrress-x: 440px;
+$icon-adrress-y: 238px;
+$icon-adrress-offset-x: -440px;
+$icon-adrress-offset-y: -238px;
+$icon-adrress-width: 14px;
+$icon-adrress-height: 18px;
+$icon-adrress-total-width: 700px;
+$icon-adrress-total-height: 569px;
+$icon-adrress-image: '../img/sprite.png';
+$icon-adrress: (440px, 238px, -440px, -238px, 14px, 18px, 700px, 569px, '../img/sprite.png', 'icon-adrress', );
+$icon-advantage-1-name: 'icon-advantage-1';
+$icon-advantage-1-x: 260px;
+$icon-advantage-1-y: 0px;
+$icon-advantage-1-offset-x: -260px;
+$icon-advantage-1-offset-y: 0px;
+$icon-advantage-1-width: 220px;
+$icon-advantage-1-height: 220px;
+$icon-advantage-1-total-width: 700px;
+$icon-advantage-1-total-height: 569px;
+$icon-advantage-1-image: '../img/sprite.png';
+$icon-advantage-1: (260px, 0px, -260px, 0px, 220px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-1', );
+$icon-advantage-2-name: 'icon-advantage-2';
+$icon-advantage-2-x: 0px;
+$icon-advantage-2-y: 220px;
+$icon-advantage-2-offset-x: 0px;
+$icon-advantage-2-offset-y: -220px;
+$icon-advantage-2-width: 220px;
+$icon-advantage-2-height: 220px;
+$icon-advantage-2-total-width: 700px;
+$icon-advantage-2-total-height: 569px;
+$icon-advantage-2-image: '../img/sprite.png';
+$icon-advantage-2: (0px, 220px, 0px, -220px, 220px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-2', );
+$icon-advantage-3-name: 'icon-advantage-3';
+$icon-advantage-3-x: 0px;
+$icon-advantage-3-y: 0px;
+$icon-advantage-3-offset-x: 0px;
+$icon-advantage-3-offset-y: 0px;
+$icon-advantage-3-width: 260px;
+$icon-advantage-3-height: 220px;
+$icon-advantage-3-total-width: 700px;
+$icon-advantage-3-total-height: 569px;
+$icon-advantage-3-image: '../img/sprite.png';
+$icon-advantage-3: (0px, 0px, 0px, 0px, 260px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-3', );
+$icon-advantage-4-name: 'icon-advantage-4';
+$icon-advantage-4-x: 220px;
+$icon-advantage-4-y: 220px;
+$icon-advantage-4-offset-x: -220px;
+$icon-advantage-4-offset-y: -220px;
+$icon-advantage-4-width: 220px;
+$icon-advantage-4-height: 220px;
+$icon-advantage-4-total-width: 700px;
+$icon-advantage-4-total-height: 569px;
+$icon-advantage-4-image: '../img/sprite.png';
+$icon-advantage-4: (220px, 220px, -220px, -220px, 220px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-4', );
+$icon-advantage-5-name: 'icon-advantage-5';
+$icon-advantage-5-x: 480px;
+$icon-advantage-5-y: 0px;
+$icon-advantage-5-offset-x: -480px;
+$icon-advantage-5-offset-y: 0px;
+$icon-advantage-5-width: 220px;
+$icon-advantage-5-height: 220px;
+$icon-advantage-5-total-width: 700px;
+$icon-advantage-5-total-height: 569px;
+$icon-advantage-5-image: '../img/sprite.png';
+$icon-advantage-5: (480px, 0px, -480px, 0px, 220px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-5', );
+$icon-advantage-6-name: 'icon-advantage-6';
+$icon-advantage-6-x: 480px;
+$icon-advantage-6-y: 220px;
+$icon-advantage-6-offset-x: -480px;
+$icon-advantage-6-offset-y: -220px;
+$icon-advantage-6-width: 220px;
+$icon-advantage-6-height: 220px;
+$icon-advantage-6-total-width: 700px;
+$icon-advantage-6-total-height: 569px;
+$icon-advantage-6-image: '../img/sprite.png';
+$icon-advantage-6: (480px, 220px, -480px, -220px, 220px, 220px, 700px, 569px, '../img/sprite.png', 'icon-advantage-6', );
+$icon-arrow-name: 'icon-arrow';
+$icon-arrow-x: 454px;
+$icon-arrow-y: 238px;
+$icon-arrow-offset-x: -454px;
+$icon-arrow-offset-y: -238px;
+$icon-arrow-width: 20px;
+$icon-arrow-height: 8px;
+$icon-arrow-total-width: 700px;
+$icon-arrow-total-height: 569px;
+$icon-arrow-image: '../img/sprite.png';
+$icon-arrow: (454px, 238px, -454px, -238px, 20px, 8px, 700px, 569px, '../img/sprite.png', 'icon-arrow', );
+$icon-audi-name: 'icon-audi';
+$icon-audi-x: 253px;
+$icon-audi-y: 440px;
+$icon-audi-offset-x: -253px;
+$icon-audi-offset-y: -440px;
+$icon-audi-width: 95px;
+$icon-audi-height: 34px;
+$icon-audi-total-width: 700px;
+$icon-audi-total-height: 569px;
+$icon-audi-image: '../img/sprite.png';
+$icon-audi: (253px, 440px, -253px, -440px, 95px, 34px, 700px, 569px, '../img/sprite.png', 'icon-audi', );
+$icon-bmw-name: 'icon-bmw';
+$icon-bmw-x: 110px;
+$icon-bmw-y: 440px;
+$icon-bmw-offset-x: -110px;
+$icon-bmw-offset-y: -440px;
+$icon-bmw-width: 73px;
+$icon-bmw-height: 72px;
+$icon-bmw-total-width: 700px;
+$icon-bmw-total-height: 569px;
+$icon-bmw-image: '../img/sprite.png';
+$icon-bmw: (110px, 440px, -110px, -440px, 73px, 72px, 700px, 569px, '../img/sprite.png', 'icon-bmw', );
+$icon-email-name: 'icon-email';
+$icon-email-x: 458px;
+$icon-email-y: 220px;
+$icon-email-offset-x: -458px;
+$icon-email-offset-y: -220px;
+$icon-email-width: 18px;
+$icon-email-height: 16px;
+$icon-email-total-width: 700px;
+$icon-email-total-height: 569px;
+$icon-email-image: '../img/sprite.png';
+$icon-email: (458px, 220px, -458px, -220px, 18px, 16px, 700px, 569px, '../img/sprite.png', 'icon-email', );
+$icon-facebook-name: 'icon-facebook';
+$icon-facebook-x: 58px;
+$icon-facebook-y: 513px;
+$icon-facebook-offset-x: -58px;
+$icon-facebook-offset-y: -513px;
+$icon-facebook-width: 44px;
+$icon-facebook-height: 44px;
+$icon-facebook-total-width: 700px;
+$icon-facebook-total-height: 569px;
+$icon-facebook-image: '../img/sprite.png';
+$icon-facebook: (58px, 513px, -58px, -513px, 44px, 44px, 700px, 569px, '../img/sprite.png', 'icon-facebook', );
+$icon-insta-name: 'icon-insta';
+$icon-insta-x: 102px;
+$icon-insta-y: 513px;
+$icon-insta-offset-x: -102px;
+$icon-insta-offset-y: -513px;
+$icon-insta-width: 44px;
+$icon-insta-height: 44px;
+$icon-insta-total-width: 700px;
+$icon-insta-total-height: 569px;
+$icon-insta-image: '../img/sprite.png';
+$icon-insta: (102px, 513px, -102px, -513px, 44px, 44px, 700px, 569px, '../img/sprite.png', 'icon-insta', );
+$icon-lexus-name: 'icon-lexus';
+$icon-lexus-x: 183px;
+$icon-lexus-y: 440px;
+$icon-lexus-offset-x: -183px;
+$icon-lexus-offset-y: -440px;
+$icon-lexus-width: 70px;
+$icon-lexus-height: 50px;
+$icon-lexus-total-width: 700px;
+$icon-lexus-total-height: 569px;
+$icon-lexus-image: '../img/sprite.png';
+$icon-lexus: (183px, 440px, -183px, -440px, 70px, 50px, 700px, 569px, '../img/sprite.png', 'icon-lexus', );
+$icon-mitsubishi-name: 'icon-mitsubishi';
+$icon-mitsubishi-x: 0px;
+$icon-mitsubishi-y: 440px;
+$icon-mitsubishi-offset-x: 0px;
+$icon-mitsubishi-offset-y: -440px;
+$icon-mitsubishi-width: 110px;
+$icon-mitsubishi-height: 73px;
+$icon-mitsubishi-total-width: 700px;
+$icon-mitsubishi-total-height: 569px;
+$icon-mitsubishi-image: '../img/sprite.png';
+$icon-mitsubishi: (0px, 440px, 0px, -440px, 110px, 73px, 700px, 569px, '../img/sprite.png', 'icon-mitsubishi', );
+$icon-phone-name: 'icon-phone';
+$icon-phone-x: 440px;
+$icon-phone-y: 220px;
+$icon-phone-offset-x: -440px;
+$icon-phone-offset-y: -220px;
+$icon-phone-width: 18px;
+$icon-phone-height: 18px;
+$icon-phone-total-width: 700px;
+$icon-phone-total-height: 569px;
+$icon-phone-image: '../img/sprite.png';
+$icon-phone: (440px, 220px, -440px, -220px, 18px, 18px, 700px, 569px, '../img/sprite.png', 'icon-phone', );
+$icon-vk-name: 'icon-vk';
+$icon-vk-x: 146px;
+$icon-vk-y: 513px;
+$icon-vk-offset-x: -146px;
+$icon-vk-offset-y: -513px;
+$icon-vk-width: 44px;
+$icon-vk-height: 44px;
+$icon-vk-total-width: 700px;
+$icon-vk-total-height: 569px;
+$icon-vk-image: '../img/sprite.png';
+$icon-vk: (146px, 513px, -146px, -513px, 44px, 44px, 700px, 569px, '../img/sprite.png', 'icon-vk', );
+$icon-youtube-name: 'icon-youtube';
+$icon-youtube-x: 190px;
+$icon-youtube-y: 513px;
+$icon-youtube-offset-x: -190px;
+$icon-youtube-offset-y: -513px;
+$icon-youtube-width: 44px;
+$icon-youtube-height: 44px;
+$icon-youtube-total-width: 700px;
+$icon-youtube-total-height: 569px;
+$icon-youtube-image: '../img/sprite.png';
+$icon-youtube: (190px, 513px, -190px, -513px, 44px, 44px, 700px, 569px, '../img/sprite.png', 'icon-youtube', );
+$spritesheet-width: 700px;
+$spritesheet-height: 569px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($icon-acura, $icon-adrress, $icon-advantage-1, $icon-advantage-2, $icon-advantage-3, $icon-advantage-4, $icon-advantage-5, $icon-advantage-6, $icon-arrow, $icon-audi, $icon-bmw, $icon-email, $icon-facebook, $icon-insta, $icon-lexus, $icon-mitsubishi, $icon-phone, $icon-vk, $icon-youtube, );
+$spritesheet: (700px, 569px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

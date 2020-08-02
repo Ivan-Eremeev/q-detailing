@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'RedRing';
+    src: url('../fonts/RedRingRegular.eot');
+    src: url('../fonts/RedRingRegular.eot') format('embedded-opentype'),
+         url('../fonts/RedRingRegular.woff2') format('woff2'),
+         url('../fonts/RedRingRegular.woff') format('woff'),
+         url('../fonts/RedRingRegular.ttf') format('truetype'),
+         url('../fonts/RedRingRegular.svg#RedRingRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RedRing';
+    src: url('../fonts/RedRingBold.eot');
+    src: url('../fonts/RedRingBold.eot') format('embedded-opentype'),
+         url('../fonts/RedRingBold.woff2') format('woff2'),
+         url('../fonts/RedRingBold.woff') format('woff'),
+         url('../fonts/RedRingBold.ttf') format('truetype'),
+         url('../fonts/RedRingBold.svg#RedRingBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RedRing';
+    src: url('../fonts/RedRingLight.eot');
+    src: url('../fonts/RedRingLight.eot') format('embedded-opentype'),
+         url('../fonts/RedRingLight.woff2') format('woff2'),
+         url('../fonts/RedRingLight.woff') format('woff'),
+         url('../fonts/RedRingLight.ttf') format('truetype'),
+         url('../fonts/RedRingLight.svg#RedRingLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
